@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("input").hover(function(){
+
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "pink");
+
+
+if (confirm('Confirm Input?')) {
+//if pressed OK do nothing
+}else{
+$("input:text").val("");
+  }
+});
+});
+</script>
+</head>
+<body>
+
+<p>Hover the mouse pointer over the text input box<br>
+<br>Enter input and hover out.<br>
+Confirm dialog box appears<br>
+If <b>confirmed</b>, input remain<br>
+If <b>canceled</b>, input is deleted</p>
+
+<label for="uinput">Enter Input:</label><br>
+  <input type="text" id="uinput" name="uinput"><br>
+
+</body>
+</html>

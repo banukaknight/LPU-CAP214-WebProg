@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>jQuery Syntax Example</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("button").click(function(){
+$("div").text("After Click");
+$("div").css({"background-color": "limegreen", "font-size": "200%", "float": "left", "border": "15px solid"});
+
+})
+});
+</script>
+</head>
+<body>
+<button>click here</button>
+<br />
+<div style="height:200px; width:300px; color:green; 
+            border:3px solid; background-color: yellow; float:right; border-color: gray;">Before Click</div><br />
+
+</body>

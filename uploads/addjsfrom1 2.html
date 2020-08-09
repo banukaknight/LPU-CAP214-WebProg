@@ -1,0 +1,31 @@
+<HTML>
+<head>
+<title>Javascript and form</title>
+<script language="javascript">
+function add() 
+{
+var value1,value2,add_all;
+value1 = parseInt(form1.first.value);
+value2 = parseInt(form1.second.value);
+add_all = (value1+value2);
+alert("The sum of " + value1 + " and "  +  value2 + " is "+ 
+add_all + ".");
+}
+</script>
+</head>
+<body>
+<center><h1>Using JavaScript and HTML Forms </h1> </center>
+<br><br>
+<form name="form1">
+Enter the First Value <br> <input type="TEXT" name="first" 
+size="20" value=""> <br>
+Enter the Second Value  <br> <input type="TEXT" name="second"
+ size="20" value="" > 
+<br> <br>
+<input type="button" value="Add" NAME="btnbutton"  
+onclick="add()">
+<br> <br>
+<input type="RESET" value="Clear Text Boxes " > <br>
+</form>
+</body>
+</html>

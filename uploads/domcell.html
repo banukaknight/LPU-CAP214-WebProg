@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/javascript">
+function displayResult()
+{
+
+alert(document.getElementById("myTable").rows[0].cells.length);
+}
+</script>
+</head>
+<body>
+<table id="myTable" border="1">
+  <tr>
+    <td>cell 1</td>
+    <td>cell 2</td>
+  </tr>
+  <tr>
+    <td>cell 3</td>
+ <td>cell 3</td>
+ <td>cell 3</td>
+ <td>cell 3</td>
+      </tr>
+</table>
+<br />
+<button type="button" onclick="displayResult()">Show number of cells</button>
+</body>
+</html> 

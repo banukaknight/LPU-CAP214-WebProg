@@ -1,0 +1,95 @@
+<DOCTYPE html!>
+
+<html>
+<head>
+<title>
+Heading goes here.
+</title>
+</head>
+
+<body>
+
+<form>
+First Name: 
+<input type="text" name="fname" value="name here" size="10" maxlength="20"><br />
+Password:
+<input type="password" name="passw">
+<br /><br />
+
+<textarea rows="5" cols="40" name="descr" placeholder="Enter description here..">
+</textarea>
+<br /><br />
+
+<input type="checkbox" name="math" value="on">Maths<br />
+<input type="checkbox" name="phy" value="on">Physics
+<br /><br />
+
+<input type="radio" name="subj" value="chemis">Chemistry<br />
+<input type="radio" name="subj" value="comp">Computing<br /><br />
+<input type="radio" name="subj2" value="java">Java<br />
+<br />
+
+<select name="dropdown">
+<option value="maths"> Maths </option>
+<option value="art" selected="selected"> Art </option>
+<option value="geo"> Geography</option>
+</select>
+<br /><br />
+
+File Upload: 
+<input type="file" name="fileupload" accept="image/*"  />
+<br /><br />
+<input type="submit" name="submit" value="Submit" /><br />
+<input type="reset" name="reset" value="Reset" /><br />
+<input type="button" name="ok" value="OK" /><br />
+<input type="image" name="imagebutton" src="lpu3.jpg" />
+<br /><br />
+
+Birthday:
+<input type="date" name="bday">
+<br /><br /><br />
+<input type="time" name="bt">
+<br /><br /><br />
+
+
+<input list="students" name="stu">
+<datalist id="students"> //can select or enter own value
+<option value="chhotte" selected="selected">chotte</option>
+<option value="AMMit">AMit</option>
+<option value="karan">karan</option>
+<option value="bob">bob</option>
+</datalist>
+<br /><br />
+
+<select name="browser"> //select only
+<option value="firefox">Firefox</option>
+<option value="ie" selected>IE</option>
+<option value="chrome">Chrome</option>
+<option value="opera">Opera</option>
+<option value="safari">Safari</option>
+</select>
+
+<br /><br />
+<input type="range" name="donation" id="donation" list="donation_list"
+  step="5" min="5" max="200">
+<datalist id="donation_list">
+  <option>25</option>
+  <option>50</option>
+  <option>100</option>
+  <option>200</option>
+</datalist>
+<br><br>
+
+<p contenteditable="true" spellcheck="true">This is a praggagraph. It is editable. Try to change the text.</p>
+First name: <input type="text" name="fname" spellcheck="true">
+
+
+</form>
+
+<h1 contenteditable="true" spellcheck="true">Title 2</h1><br /><br />
+
+<font size="4">Font size="7"</font>
+
+<br /><br /><br />
+<body>
+</html>

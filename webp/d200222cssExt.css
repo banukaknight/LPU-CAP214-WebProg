@@ -1,0 +1,9 @@
+/* external css file */
+
+h2,h3,h5 {
+color: red;
+font-weight: normal;
+letter-spacing: .4em;
+text-transform: lowercase;
+line-height: 5ex;
+}

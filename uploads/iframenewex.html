@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+<iframe name="A" height="100" width="400" frameborder="1" align="right"><p> This my first iframe</iframe><br>
+<iframe src="ol.html" name="B"><p> This my second iframe</iframe><br>
+<iframe src="ol.html" name="C"><p> This my third iframe</iframe><br>
+<a href="ol.html" target="B"></a>
+</body>
+</html>
+
+create or replace trigger t_1
+after update on student
+for each row
+begin
+Dbms_output.put_line('trigger successfully fired');
+Dbms_output.put_line('old value is'||:old.marks||' '||'new value is'||:new.marks);
+end;
